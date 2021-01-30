@@ -15,7 +15,8 @@ class ReadDB:
         self.request = ''
         self.inventario_metricas = \
             {'Gene': [(0, 'Generacion Real', 'Sistema', 'Horaria'),
-                      (1, 'Generacion Real por Recurso', 'Recurso', 'Horaria')],
+                      (1, 'Generacion Real por Recurso', 'Recurso', 'Horaria'),
+                      (2, 'Generación por tipo de despacho y tipo de fuente', 'Renovabilidad', 'Horaria')]
              'DemaCome': [(0, 'Demanda Comercial', 'Sistema', 'Horaria'),
                           (1, 'Demanda Comercial por Agente', 'Agente', 'Horaria')],
              'AporEner': [(0, 'Aportes Energia', 'Sistema', 'Diaria'),
